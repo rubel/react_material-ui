@@ -10,7 +10,7 @@ function BasicMuiForm() {
         { label: 'Christanity', value: 0 },
         { label: 'Hinduism', value: -100 },
     ]
-    
+
     const handleClose = () => {
         setSnakeBarOpen(false);
     };
