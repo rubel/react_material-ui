@@ -1,6 +1,7 @@
 {
   "name": "react_material",
   "version": "0.1.0",
+  "homepage": "https://rubel.github.io/react_material-ui",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -19,6 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -38,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

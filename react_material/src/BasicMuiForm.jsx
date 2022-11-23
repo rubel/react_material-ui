@@ -42,16 +42,11 @@ function BasicMuiForm() {
                     
                     <Box height={10} />
                     <form onSubmit={handleSubmit}>
-                        <TextField fullWidth id="outlined-basic" label="Name" variant="outlined" />
+                        <TextField fullWidth id="name" label="Name" variant="outlined" />
                         <Box height={15} />
-                        <TextField fullWidth id="filled-basic" label="eMail" variant="outlined" />
+                        <TextField fullWidth id="email" label="eMail" variant="outlined" />
                         <Box height={15} />
-                        <TextareaAutosize id="standard-basic" 
-                            minRows={3} placeholder="Minimum 3 rows" 
-                            defaultValue="Add address here.."
-                            variant="standard"
-                            style={{ width: "100%" }} 
-                        />
+                        <TextField fullWidth multiline id="address" label="Address" variant="outlined" rows={3} />
                         <FormControlLabel
                             value="top"
                             control={<Checkbox />}
@@ -69,7 +64,7 @@ function BasicMuiForm() {
                             renderInput={(params) => <TextField {...params} label="Religion" />}
                         />
                         
-                        <Box height={60} />
+                        <Box height={30} />
                         
                         <Button type="submit" variant="contained">Submit Form</Button>
                     </form>

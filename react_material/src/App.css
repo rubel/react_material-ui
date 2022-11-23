@@ -265,12 +265,11 @@ main {
   left: 0px;
   top: 0px;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: rgba(0, 0, 0, 0.2);
 }
 .productFormBg {
   width: 1000px;
-  height: 400px;
   background: white;
   margin: 100px auto;
   padding: 20px 30px;
@@ -428,7 +427,6 @@ main {
 }
 .customerFormBg {
   width: 1000px;
-  height: 560px;
   background: white;
   float: right;
   margin: 100px 100px 0px 0px;
