@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react_material-ui/static/css/main.5fd3de98.css",
-    "main.js": "/react_material-ui/static/js/main.80d2cf7f.js",
+    "main.js": "/react_material-ui/static/js/main.e381db6d.js",
     "index.html": "/react_material-ui/index.html",
     "main.5fd3de98.css.map": "/react_material-ui/static/css/main.5fd3de98.css.map",
-    "main.80d2cf7f.js.map": "/react_material-ui/static/js/main.80d2cf7f.js.map"
+    "main.e381db6d.js.map": "/react_material-ui/static/js/main.e381db6d.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd3de98.css",
-    "static/js/main.80d2cf7f.js"
+    "static/js/main.e381db6d.js"
   ]
 }
